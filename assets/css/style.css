@@ -1,0 +1,235 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Regular.ttf");
+    font-weight: 400;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  
+  .btn {
+    color: #FFF;
+    border-radius: 6px;
+    background-color: #3A5F56;
+    padding: 10px 18px;
+    margin-left: 250px;
+  
+  }
+  
+  .header__wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+  }
+  .header__box {
+    display: flex;
+    align-items: center;
+  }
+  .header__menu {
+    display: flex;
+  }
+  .header__link {
+    color: #3A5F56;
+    font-size: 16px;
+  }
+  .header__link:hover {
+    color: rgb(255, 174, 0);
+  }
+  .header__item {
+    margin-right: 30px;
+  }
+  .header__cart {
+    display: flex;
+    gap: 8px;
+  }
+  .header__cart::before {
+    content: "";
+    background: url("../img/cart.svg");
+    display: block;
+    width: 17px;
+    height: 17px;
+  }
+  .header__cart::after {
+    content: "0";
+    color: #3A5F56;
+    background-color: #FFF;
+    border-radius: 50%;
+    padding: 0 6px;
+  }
+  .header__cart:hover {
+    color: rgb(255, 174, 0);
+  }
+  .main__wrap {
+    display: flex;
+    gap: 64px;
+    align-items: center;
+  }
+  .main__title {
+    color: #3A5F56;
+    font-size: 48px;
+    margin-bottom: 15px;
+    width: 477px;
+  }
+  .main__text {
+    color: #3A5F56;
+    font-size: 16px;
+    margin-bottom: 27px;
+    width: 534px;
+  }
+  
+  .services__ico {
+    display: flex;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  .services__title {
+    color: #3A5F56;
+    font-size: 32px;
+    margin-bottom: 11px;
+    text-align: center;
+  }
+  .services__text {
+    color: #292C32;
+    font-size: 16px;
+    max-width: 590px;
+    margin: 0 auto;
+    margin-bottom: 17px;
+  }
+  .services__text_center {
+    text-align: center;
+  }
+  .services__row {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .services__card {
+    max-width: 378px;
+    border-radius: 16px;
+    background-color: #f4f3f0;
+    padding: 30px;
+  }
+  .services__icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 9px;
+  }
+  .services__subtitle {
+    color: #3A5F56;
+    font-size: 24px;
+    margin-bottom: 6px;
+  }
+  .services__read {
+    display: flex;
+    color: #3A5F56;
+    font-size: 17px;
+    align-items: center;
+    gap: 5px;
+  }
+  .services__read::after {
+    content: "";
+    background: url("../img/arrow.svg") no-repeat center center/cover;
+    display: block;
+    width: 20px;
+    height: 10px;
+  }
+  .preset-store__title {
+    color: #DB343B;
+    font-size: 32px;
+    margin-bottom: 11px;
+    text-align: center;
+  }
+  .preset-store__text {
+    color: #292C32;
+    font-size: 16px;
+    max-width: 590px;
+    margin: 0 auto;
+    margin-bottom: 17px;
+  }
+  .preset-store__text_center {
+    text-align: center;
+  }
+  .preset-store__row {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  .preset-store__card1 {
+    display: inline-block;
+    background: url(../img/one.svg) no-repeat center center/cover;
+    max-width: 380px;
+    height: 438px;
+    border-radius: 16px;
+    padding: 30px;
+  }
+  .preset-store__card2 {
+    display: inline-block;
+    background: url(../img/two.svg) no-repeat center center/cover;
+    max-width: 380px;
+    height: 438px;
+    border-radius: 16px;
+    padding: 30px;
+  }
+  .preset-store__card3 {
+    display: inline-block;
+    background: url(../img/three.svg) no-repeat center center/cover;
+    max-width: 380px;
+    height: 438px;
+    border-radius: 16px;
+    padding: 30px;
+  }
+  .preset-store__name {
+    margin-top: 241px;
+    font-size: 24px;
+    font-family: Roboto;
+    margin-bottom: 6px;
+  }
+  .preset-store__subtitle {
+    color: #3A5F56;
+    font-size: 16px;
+  }
+  .preset-store__read {
+    display: flex;
+    color: #3A5F56;
+    font-size: 17px;
+    gap: 5px;
+    justify-content: center;
+  }
+  .preset-store__read::after {
+    content: "";
+    background: url("../img/arrow.svg") no-repeat center center/cover;
+    display: block;
+    width: 20px;
+    height: 10px;
+  }
+  
+  .contact__block {
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 75px;
+    width: 800px;
+    height: 260px;
+    background: #F4F3F0;
+    margin-top: 100px;
+    margin-left: 170;
+  }
